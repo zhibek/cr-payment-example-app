@@ -7,3 +7,13 @@ $ yarn create vite payment-example-app --template react-ts
 $ yarn add -D eslint-plugin-react
 $ nano .eslintrc.cjs
 $ yarn lint --fix
+
+# Add Airbnb plugin to eslint to enforce code-style
+$ yarn add -D eslint-config-airbnb
+$ yarn add -D eslint-plugin-import
+$ yarn add -D eslint-plugin-jsx-a11y
+$ yarn add -D eslint-config-airbnb-typescript
+$ nano .eslintrc.cjs
+$ yarn lint --fix
+$ nano src/main.tsx
+$ nano src/App.tsx
