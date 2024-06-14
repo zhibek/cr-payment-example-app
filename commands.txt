@@ -25,3 +25,8 @@ $ git rm src/App.css
 $ nano src/main.tsx
 $ nano src/App.tsx
 $ nano src/index.css
+
+# Set component directory structure
+$ mkdir src/components
+$ git mv src/App.tsx src/components/App.tsx
+$ nano src/main.tsx
