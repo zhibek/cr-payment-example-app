@@ -1,0 +1,3 @@
+COMMANDS EXECUTED
+
+$ yarn create vite payment-example-app --template react-ts
