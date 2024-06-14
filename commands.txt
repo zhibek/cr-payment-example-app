@@ -17,3 +17,11 @@ $ nano .eslintrc.cjs
 $ yarn lint --fix
 $ nano src/main.tsx
 $ nano src/App.tsx
+
+# Clear boilerplate content from app
+$ git rm src/assets/react.svg
+$ git rm public/vite.svg
+$ git rm src/App.css
+$ nano src/main.tsx
+$ nano src/App.tsx
+$ nano src/index.css
