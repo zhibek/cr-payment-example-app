@@ -35,5 +35,6 @@ module.exports = {
     ],
     'react/react-in-jsx-scope': 'off',
     'import/no-absolute-path': 'off',
+    'no-nested-ternary': 'off',
   },
 }

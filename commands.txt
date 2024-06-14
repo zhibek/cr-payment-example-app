@@ -38,3 +38,9 @@ $ mkdir src/store
 $ nano src/store/index.ts
 $ nano src/store/hooks.ts
 $ nano src/components/App.tsx
+
+# Implement API fetch using redux RTK query
+Add store/apis/PaymentsApi.ts
+Add components/PaymentProviders.tsx
+Update store/index.ts
+Update component/App.tsx
