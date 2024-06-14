@@ -30,3 +30,11 @@ $ nano src/index.css
 $ mkdir src/components
 $ git mv src/App.tsx src/components/App.tsx
 $ nano src/main.tsx
+
+# Initialise state management with redux
+$ yarn add @reduxjs/toolkit
+$ yarn add react-redux
+$ mkdir src/store
+$ nano src/store/index.ts
+$ nano src/store/hooks.ts
+$ nano src/components/App.tsx
