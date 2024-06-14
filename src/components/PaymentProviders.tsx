@@ -1,9 +1,11 @@
 import { useGetProvidersQuery } from '../store/apis/PaymentsApi';
 
+const client = 'test';
+
 function PaymentProviders() {
   const {
     data, error, isLoading, isError,
-  } = useGetProvidersQuery();
+  } = useGetProvidersQuery(client);
 
   return (
     <div>
@@ -19,9 +21,8 @@ function PaymentProviders() {
         <pre>
           Success:
           {' '}
-          {data?.status === 'ok' ? 'YES' : 'NO'}
+          {JSON.stringify(data?.data?.provider)}
         </pre>
-
       )}
     </div>
   );

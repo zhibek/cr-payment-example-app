@@ -44,3 +44,10 @@ Add store/apis/PaymentsApi.ts
 Add components/PaymentProviders.tsx
 Update store/index.ts
 Update component/App.tsx
+
+# Change API fetch to use Payments Service providers endpoint
+Add .env.example
+Update .gitignore
+Update vite-env.d.ts
+Update store/apis/PaymentsApi.ts
+Update components/PaymentProviders.tsx
