@@ -3,7 +3,9 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 const baseUrl = import.meta.env.VITE_PAYMENTS_SERVICE_URL;
 
 export interface PaymentsResponse {
-  data: object,
+  data: {
+    provider: any, /* eslint-disable-line @typescript-eslint/no-explicit-any */
+  },
   message: string,
 }
 
